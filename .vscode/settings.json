@@ -3,5 +3,8 @@
     "editor.codeActionsOnSave": {},
     "fiveServer.php.executable": "C:\\xampp\\php\\php.exe",
     "fiveServer.php.ini": "C:\\xampp\\php\\php.ini",
-    "fiveServer.port": 5500
+    "fiveServer.port": 5500,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.matchBrackets": "never",
+    "editor.selectionHighlight": false
 }

@@ -1,0 +1,12 @@
+body {
+    margin: auto;
+    padding: auto;
+}
+
+#card-layout {
+    margin-top: 20px;
+}
+
+.card-body {
+    border-top: 2px solid black;
+}
