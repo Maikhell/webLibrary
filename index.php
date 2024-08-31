@@ -61,7 +61,7 @@
                 <div class="carousel-item active">
                     <div class="d-flex">
                         <div class="info-section p-3">
-                            <h3>Information for Slide 1</h3>
+                            <h3>Information fora Slide 1</h3>
                             <p>This is some info for the first slide.</p>
                         </div>
                         <img src="./images/bleach.jpg" class="d-block w-25" alt="...">
