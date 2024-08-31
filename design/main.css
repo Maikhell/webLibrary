@@ -10,3 +10,7 @@ body {
 .card-body {
     border-top: 2px solid black;
 }
+
+#myNavbar {
+    margin-bottom: 10px;
+}
