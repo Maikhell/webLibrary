@@ -59,16 +59,12 @@
             <div class="carousel-inner bg-dark text-white">
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-3 ">
-                                <div class="info-section p-3">
-                                    <h3>Bleach</h3>
-                                    <p>This is some info for the first slide.</p>
-                                </div class="col-sm-5 ">
-                                <img src="./images/FOREST-NIGHT 8k.png" class=" d-block w-100" alt="...">
-                            </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="info-section p-3">
+                            <h3>Bleach</h3>
+                            <p>This is some info for the first slide.</p>
                         </div>
+                        <img src="./images/FOREST-NIGHT 8k.png" class=" d-block w-50" alt="...">
                     </div>
                 </div>
             </div>
