@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
-    <link rel="stylesheet" href="./design/mains.css">
+    <link rel="stylesheet" href="./design/main.css">
     <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 
@@ -22,20 +22,10 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Genre</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Authors</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
@@ -44,6 +34,9 @@
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
+                    <div class="account-log">
+                        <img class="account-image" src="./images/bleach.jpg" alt="">
+                    </div>
                 </form>
             </div>
         </div>
@@ -68,6 +61,30 @@
                             <span class="badge bg-light text-dark">Drama </span>
                             <span class="badge bg-light text-dark">Crime </span>
                             <span class="badge bg-light text-dark">Anthology</span>
+                            <p class="info-carousel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis accusamus assumenda pariatur, quis quasi, tempore ea expedita ducimus omnis sapiente illum perspiciatis rerum fugiat fuga aliquid quisquam delectus vero.
+                            </p>
+                            <p>Language Available</p>
+                            <span class="badge bg-info text-dark">En</span>
+                            <span class="badge bg-warning text-dark">Es</span>
+                            <span class="badge bg-success text-dark">Fr</span>
+                            <span class="badge bg-danger text-dark">Jp</span>
+                            <p class="info-carousel">
+                                <a href="#" class="btn btn-primary">Read Now</a>
+                            </p>
+                        </div>
+                        <img src="./images/FOREST-NIGHT 8k.png" class=" d-block w-50" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-between">
+                        <div class="info-section p-3">
+                            <h1>Top Book 2 </h1>
+                            <h5>Author Name </h5>
+                            <p>Date Published </p>
+                            <span class="badge bg-light text-dark">Classic </span>
+                            <span class="badge bg-light text-dark">Drama </span>
+                            <span class="badge bg-light text-dark">Crime </span>
+                            <span class="badge bg-light text-dark">Anthology</span>
 
                             <p class="info-carousel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis accusamus assumenda pariatur, quis quasi, tempore ea expedita ducimus omnis sapiente illum perspiciatis rerum fugiat fuga aliquid quisquam delectus vero.
                             </p>
@@ -77,6 +94,9 @@
                             <span class="badge bg-warning text-dark">Es</span>
                             <span class="badge bg-success text-dark">Fr</span>
                             <span class="badge bg-danger text-dark">Jp</span>
+                            <p class="info-carousel">
+                                <a href="#" class="btn btn-primary">Read Now</a>
+                            </p>
                         </div>
                         <img src="./images/FOREST-NIGHT 8k.png" class=" d-block w-50" alt="...">
                     </div>
@@ -84,17 +104,25 @@
                 <div class="carousel-item">
                     <div class="d-flex justify-content-between">
                         <div class="info-section p-3">
-                            <h3>Top Book 2 </h3>
-                            <p>Info about the book</p>
-                        </div>
-                        <img src="./images/FOREST-NIGHT 8k.png" class=" d-block w-50" alt="...">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-between">
-                        <div class="info-section p-3">
-                            <h3>Top Book 3 </h3>
-                            <p>Info about the book</p>
+                            <h1>Top Book 3 </h1>
+                            <h5>Author Name </h5>
+                            <p>Date Published </p>
+                            <span class="badge bg-light text-dark">Classic</span>
+                            <span class="badge bg-light text-dark">Drama</span>
+                            <span class="badge bg-light text-dark">Crime </span>
+                            <span class="badge bg-light text-dark">Anthology</span>
+
+                            <p class="info-carousel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facilis accusamus assumenda pariatur, quis quasi, tempore ea expedita ducimus omnis sapiente illum perspiciatis rerum fugiat fuga aliquid quisquam delectus vero.
+                            </p>
+
+                            <p>Language Available</p>
+                            <span class="badge bg-info text-dark">En</span>
+                            <span class="badge bg-warning text-dark">Es</span>
+                            <span class="badge bg-success text-dark">Fr</span>
+                            <span class="badge bg-danger text-dark">Jp</span>
+                            <p class="info-carousel">
+                                <a href="#" class="btn btn-primary">Read Now</a>
+                            </p>
                         </div>
                         <img src="./images/FOREST-NIGHT 8k.png" class=" d-block w-50" alt="...">
                     </div>
