@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
-    <link rel="stylesheet" href="./design/main.css">
+    <link rel="stylesheet" href="./design/mainss.css">
     <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
 
@@ -33,9 +33,19 @@
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    <div class="account-log">
-                        <img class="account-image" src="./images/bleach.jpg" alt="">
+                    <button class="btn btn-outline-secondary" id="search-btn" type="submit"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg></button>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-secondary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                            <img class="account-image" src="./images/bleach.jpg" alt="">
+
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                     </div>
                 </form>
             </div>
@@ -159,6 +169,7 @@
         </div>
     </div>
 </body>
+<script src="./jquery/popper.min.js"></script>
 <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
 <script src="./jquery/jquery-3.7.1.min.js"></script>
 

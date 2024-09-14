@@ -1,12 +1,12 @@
 <?php
 $server = "localhost";
 $password = "";
-$usernamee = "";
-$dbname = "";
+$username = "root";
+$dbname = "library_db";
 
-$conn = mysqli_connect($server, $password, $username,);
+$conn = new mysqli($server, $username, $password, $dbname);
 
-if (!$conn) {
-    die("Connection Failed: " . mysqli_connect_error());
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 echo "Connected Successfully";
