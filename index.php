@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Genre</a>
@@ -32,7 +32,7 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 300px;">
                     <div class="dropdown">
                         <button type="button" class="btn btn-light" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                             <img class="account-image" src="./images/person-fill.svg" alt="">
@@ -54,6 +54,8 @@
             </div>
         </div>
     </nav>
+
+
 
     <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
